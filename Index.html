@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <div id="AllInOne">
+      <div id="container">
+        <div id="menu">
+          <div class="menu-ele"></div>
+          <div class="menu-ele"></div>
+          <div class="menu-ele"></div>
+        </div>
+
+        <label class="switch">
+          <input type="checkbox" id="toggle"/>
+          <span class="slider"></span>
+        </label>
+
+        <button class="refresh-button" id="refresh"><img src="refresh (1) (1) (1).png" alt=""></button>
+
+        <p id="title">ADD Task</p>
+
+      </div>
+
+
+      <div class="input-container">
+        <input type="text" placeholder="Add Item" id="inputText" />
+        <button id="addButton">
+          <span>+</span>
+        </button>
+      </div>
+
+
+      <div class="divSort">
+
+        <p style="color: #BEC4C7;">TO DO</p>
+
+      </div>
+
+
+      <div id="DoList">
+        <table id="table1">
+          <tr class="tr1">
+            <th id="box">checkBox</th>
+            <th id="task">Task</th>
+            <th>Time</th>
+          </tr>
+        </table>
+      </div>
+
+
+      <div class="divSort">
+
+        <p style="color: #BEC4C7;">COMPLETED</p>
+
+      </div>
+      
+
+      <div id="CoList">
+        <table id="table2">
+          <tr class="tr1">
+            <th id="box">checkBox</th>
+            <th id="task">Task</th>
+            <th>Time</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+  <script src="Script.js"></script>
+</html>
